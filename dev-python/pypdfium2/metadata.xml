@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>marcin.deranek@slonko.net</email>
+		<name>Marcin Deranek</name>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://github.com/pypdfium2-team/pypdfium2/issues</bugs-to>
+		<remote-id type="github">pypdfium2-team/pypdfium2</remote-id>
+		<remote-id type="pypi">pypdfium2</remote-id>
+	</upstream>
+</pkgmetadata>
