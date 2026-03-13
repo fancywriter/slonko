@@ -98,6 +98,7 @@ DEPEND="
 		>=dev-python/whoosh-reloaded-2.7.5[${PYTHON_USEDEP}]
 		>=www-servers/granian-2.5.1[${PYTHON_USEDEP}]')
 	>=app-text/OCRmyPDF-16.12
+	<app-text/OCRmyPDF-17
 	app-text/poppler[utils]
 	media-gfx/imagemagick[xml]
 	media-gfx/optipng
