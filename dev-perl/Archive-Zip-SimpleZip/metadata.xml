@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>marcin.deranek@slonko.net</email>
+		<name>Marcin Deranek</name>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://github.com/pmqs/Archive-Zip-SimpleZip/issues</bugs-to>
+		<remote-id type="github">pmqs/Archive-Zip-SimpleZip</remote-id>
+		<remote-id type="cpan">Archive-Zip-SimpleZip</remote-id>
+		<remote-id type="cpan-module">Archive::Zip::SimpleZip</remote-id>
+		<remote-id type="cpan-module">Archive::Zip::SimpleUnzip</remote-id>
+		<remote-id type="cpan-module">Archive::Zip::StreamedUnzip</remote-id>
+	</upstream>
+</pkgmetadata>
