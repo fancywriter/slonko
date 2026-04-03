@@ -1,4 +1,4 @@
-# Copyright 2025 Gentoo Authors
+# Copyright 2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -37,6 +37,7 @@ RDEPEND="${DEPEND}"
 PATCHES=(
 	"${FILESDIR}/0002-Fix-crash.patch"
 	"${FILESDIR}/0006-Fix-desktop-deprecated.patch"
+	"${FILESDIR}/0007-Set-cmake-ocr-install-path.patch"
 )
 
 src_prepare() {
@@ -64,8 +65,6 @@ src_prepare() {
 	sed -i '/#include/ i #include <cmath>' 'src/Controller/Src/Filter/GrayToMono.hpp' || die
 
 	cmake_src_prepare
-
-	sed -i 's|/\* #undef EPSON_OCR_INSTALL_PATH \*/|#define EPSON_OCR_INSTALL_PATH "/usr/lib64/epsonscan2-ocr/"|' src/Include/Config.h
 }
 
 src_install() {
